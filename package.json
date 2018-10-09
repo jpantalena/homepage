@@ -1,0 +1,16 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "A modern and minimalist static homepage",
+  "main": "index.js",
+  "scripts": {
+    "start": "open index.html",
+    "scss": "node-sass scss -o css",
+    "scss-watch": "node-sass --watch scss -o css"
+  },
+  "author": "Jack Pantalena",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "4.9.3"
+  }
+}
