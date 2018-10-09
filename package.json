@@ -4,7 +4,7 @@
   "description": "A modern and minimalist static homepage",
   "main": "index.js",
   "scripts": {
-    "start": "open index.html",
+    "start": "node-sass scss -o css && open index.html",
     "scss": "node-sass scss -o css",
     "scss-watch": "node-sass --watch scss -o css"
   },
